@@ -1,6 +1,8 @@
 # FastSrv
 Update
 <blockquote>
+2016-04-05：该项目已结束，不再更新 <br/>
+2016-04-05：增加部分功能 <br/>
 2015-12-25：修复98%Warning级别告警@gcc version 4.4.7 <br/>
 2015-12-25：测试通过@CentOS 6.6 <br/>
 </blockquote>

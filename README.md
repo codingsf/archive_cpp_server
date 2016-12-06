@@ -1,6 +1,7 @@
-# a_cplus_server
+# cpp_server
 Update
 <blockquote>
+2016-12-06：离职前更新 <br/>
 2016-04-05：该项目已结束，不再更新 <br/>
 2016-04-05：增加部分功能 <br/>
 2015-12-25：修复98%Warning级别告警@gcc version 4.4.7 <br/>
@@ -16,6 +17,7 @@ Feature
 
 Introduction
 <blockquote>
+第一个独立架构设计开发并且正式商用的C++服务端，这是2015年唯一让我感到骄傲的事情 <br/>
 common: 提供 日志、数据库、网络、配置、线程、 redis 、 python 的底层支持 <br/>
 protocol: 提供 tlv协议、 google protobuf协议的支持 <br/>
 session: 提供 心跳协议、网络事件循环、 redis 事件循环的支持 <br/>
@@ -35,8 +37,8 @@ session: make cm<br/>
 </blockquote>
 <blockquote>
 balance: make cm<br/>
-task: make cm<br/>
-upload: make cm<br/>
+task: make<br/>
+upload: make<br/>
 sending: make cm<br/>
 </blockquote>
 
@@ -46,5 +48,6 @@ Depend on
 数据持久化依赖 redis 2.8.22 <br/>
 心跳协议依赖 Google Protocol Buffers 2.6.1 release <br/>
 日志文件系统依赖 log4cplus 2.8.22 rc4 <br/>
-http 接口依赖 python 3.3.3<br/>
+http 接口依赖 python 3.3.3 <br/>
+json报文生成依赖 rapidjson <br/>
 </blockquote>

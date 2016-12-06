@@ -8,7 +8,8 @@ do
   echo "Kill process : name = balance, pid = $i"
   kill -9 $i
 done
+
 echo "cd $HOME/code/output/bin"
 cd $HOME/code/output/bin
-echo "$HOME/code/output/bin/balance -h 21000 -p 22000 -r 6379 -q 1 -d iF5LlcJOkCePiF5LlcJOkCeQfSgWpDAoT2gf -l $HOME/code/output/log/balance.log &"
-$HOME/code/output/bin/balance -h 21000 -p 22000 -r 6379 -q 1 -d iF5LlcJOkCePiF5LlcJOkCeQfSgWpDAoT2gf -l $HOME/code/output/log/balance.log &
+echo "$HOME/code/output/bin/balance -h 21000 -p 22000 -r 6379 -k 0 -x 1 -y 1 -z 1 -d iF5LlcJOkCePiF5LlcJOkCeQfSgWpDAoT2gf -l $HOME/code/output/log/balance.log &"
+$HOME/code/output/bin/balance -h 21000 -p 22000 -r 6379 -k 0 -x 1 -y 1 -z 1 -d iF5LlcJOkCePiF5LlcJOkCeQfSgWpDAoT2gf -l $HOME/code/output/log/balance.log &
